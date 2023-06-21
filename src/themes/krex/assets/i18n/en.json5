@@ -1,7 +1,12 @@
 {
   // DSpace default: "All of DSpace"
-  "menu.section.browse_global": "Browse DSpace",
+  "menu.section.browse_global": "Browse K-REx",
 
   // DSpace default: "DSpace Angular :: "
-  "repository.title.prefix": "DSpace :: ",
+  "repository.title.prefix": "K-REx :: ",
+
+
+  "browse.comcol.by.published": "By Issue Date",
+  "menu.section.browse_global_by_published": "By Issue Date",
+  "browse.metadata.published.breadcrumbs": "Browse by Issue Date"
 }
