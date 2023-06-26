@@ -18,6 +18,7 @@ import {
 import {
   JournalVolumeComponent
 } from './app/entity-groups/journal-entities/item-pages/journal-volume/journal-volume.component';
+import { KsuEnvironmentBannerComponent } from './app/ksu-environment-banner/ksu-environment-banner.component';
 import { UntypedItemComponent } from './app/item-page/simple/item-types/untyped-item/untyped-item.component';
 import { KsuHeaderComponent } from './app/ksu-header/ksu-header.component';
 import { ItemSharedModule } from '../../app/item-page/item-shared.module';
@@ -73,6 +74,7 @@ const DECLARATIONS = [
   HeaderNavbarWrapperComponent,
   NavbarComponent,
   SearchNavbarComponent,
+  KsuEnvironmentBannerComponent,
   KsuHeaderComponent,
   FooterComponent,
   CreateCollectionParentSelectorComponent,
