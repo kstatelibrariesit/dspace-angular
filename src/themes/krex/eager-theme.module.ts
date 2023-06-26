@@ -19,6 +19,7 @@ import {
   JournalVolumeComponent
 } from './app/entity-groups/journal-entities/item-pages/journal-volume/journal-volume.component';
 import { UntypedItemComponent } from './app/item-page/simple/item-types/untyped-item/untyped-item.component';
+import { KsuHeaderComponent } from './app/ksu-header/ksu-header.component';
 import { ItemSharedModule } from '../../app/item-page/item-shared.module';
 import {
     CreateCollectionParentSelectorComponent
@@ -72,6 +73,7 @@ const DECLARATIONS = [
   HeaderNavbarWrapperComponent,
   NavbarComponent,
   SearchNavbarComponent,
+  KsuHeaderComponent,
   FooterComponent,
   CreateCollectionParentSelectorComponent,
   CreateCommunityParentSelectorComponent,
