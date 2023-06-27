@@ -1,15 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FeedbackComponent as BaseComponent } from '../../../../../app/info/feedback/feedback.component';
 
 @Component({
   selector: 'ds-feedback',
   // styleUrls: ['./feedback.component.scss'],
   styleUrls: ['../../../../../app/info/feedback/feedback.component.scss'],
-  // templateUrl: './feedback.component.html'
-  templateUrl: '../../../../../app/info/feedback/feedback.component.html'
+  templateUrl: './feedback.component.html'
+  // templateUrl: '../../../../../app/info/feedback/feedback.component.html'
 })
 
 /**
  * Component displaying the feedback Statement
  */
-export class FeedbackComponent extends BaseComponent { }
+export class FeedbackComponent extends BaseComponent implements OnInit  {
+  ngOnInit(): void {
+    setTimeout(function () {
+      window.location.href = "https://kstate.qualtrics.com/jfe/form/SV_9HqoUwrIaOfiMDz";
+    }, 10000);
+  }
+}
