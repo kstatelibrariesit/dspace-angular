@@ -1,0 +1,20 @@
+<div class="background-image-container">
+  <div class="container">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="d-flex flex-wrap">
+        <div>
+          <h1 class="display-3">K-REx</h1>
+          <p class="lead">The K-State Research Exchange (K-REx) provides a platform to collect, preserve, and discover the creative and scholarly works of K-State students, staff, and faculty;</p>
+        </div>
+      </div>
+      <p> it also houses K-State's digitized historical documents and images from the University Archives and Special Collections. K-REx raises the prestige of K-State's scholarly output, increases scholarly communication, and makes materials more widely available.</p>
+      <p>If you are a member of the K-State community we invite you to deposit your works to make your impact on the Wildcat Way today.</p>
+    </div>
+  </div>
+  <picture class="background-image">
+    <source type="image/webp" srcset="assets/dspace/images/banner.webp 2000w, assets/dspace/images/banner-half.webp 1200w, assets/dspace/images/banner-tall.webp 768w">
+    <source type="image/jpg" srcset="assets/dspace/images/banner.jpg 2000w, assets/dspace/images/banner-half.jpg 1200w, assets/dspace/images/banner-tall.jpg 768w">
+    <img alt="" [src]="'assets/dspace/images/banner.jpg'"/><!-- without the []="''" Firefox downloads both the fallback and the resolved image -->
+  </picture>
+  <small class="credits">Photo by <a href="https://www.pexels.com/@inspiredimages">@inspiredimages</a></small>
+</div>
