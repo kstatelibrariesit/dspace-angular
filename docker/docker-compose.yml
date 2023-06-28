@@ -39,5 +39,5 @@ services:
     stdin_open: true
     tty: true
     volumes:
-    - "../src/themes/krex:/app/src/themes/krex"
+    - "../src:/app/src"
     - "../config:/app/config"
