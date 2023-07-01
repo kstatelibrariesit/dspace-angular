@@ -5217,4 +5217,16 @@
   "access-control-option-end-date-note": "Select the date until which the related access condition is applied",
 
   "repository.title.prefixDSpace": "K-REx Angular ::",
+
+  "item.page.etdr.graduationmonth": "Graduation Month",
+
+  "item.page.etdr.degree": "Degree",
+
+  "item.page.etdr.department": "Department",
+
+  "item.page.etdr.advisor": "Major Professor",
+
+  "item.page.etdr.date": "Date",
+
+  "item.page.etdr.type": "Type",
 }

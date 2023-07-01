@@ -26,6 +26,16 @@ mediaViewer:
   video: true
 
 themes:
+  # Specific Item
+  # - name: etdr
+  #   extends: krex
+  #   handle: '2097/43295'
+
+  - name: etdr
+    extends: krex
+    handle: '2097/4'
+    # uuid: '6d684812-6d29-4564-8b51-f5670957936b'
+
   # default theme, based on DSpace
   - name: krex
     headTags:
