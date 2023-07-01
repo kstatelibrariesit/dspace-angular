@@ -3,3 +3,35 @@ rest:
   host: api7.dspace.org
   port: 443
   nameSpace: /server
+
+info:
+  # Whether the end user agreement is required before users may use the repository.
+  # If enabled, the user will be required to accept the agreement before they can use the repository.
+  # If disabled, the page will not exist and no agreement is required to use the repository
+  enableEndUserAgreement: false
+  # Whether the privacy statement should exist or not.
+  enablePrivacyStatement: false
+
+# Whether to enable Markdown (https://commonmark.org/) and MathJax (https://www.mathjax.org/)
+# display in supported metadata fields. By default, only dc.description.abstract is supported.
+markdown:
+  enabled: true
+  mathjax: true
+
+# Whether to enable media viewer for image and/or video Bitstreams (i.e. Bitstreams whose MIME type starts with 'image' or 'video').
+# When "image: true", this enables a gallery viewer where you can zoom or page through images.
+# When "video: true", this enables embedded video streaming.  This embedded video streamer also supports audio files.
+mediaViewer:
+  image: true
+  video: true
+
+themes:
+  # default theme, based on DSpace
+  - name: krex
+    headTags:
+      # Insert <link rel="icon" href="assets/krex/images/favicons/favicon.ico" sizes="any"/> into the <head> of the page.
+      - tagName: link
+        attributes:
+          rel: icon
+          href: assets/krex/images/favicons/favicon.ico
+          sizes: any
