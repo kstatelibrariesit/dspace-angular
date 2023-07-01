@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { EagerThemeModule as DSpaceEagerThemeModule } from './dspace/eager-theme.module';
 import { EagerThemeModule as CustomEagerThemeModule } from './custom/eager-theme.module';
 import { EagerThemeModule as KrexEagerThemeModule } from './krex/eager-theme.module';
+import { EagerThemeModule as EtdrEagerThemeModule } from './etdr/eager-theme.module';
 
 /**
  * This module bundles the eager theme modules for all available themes.
@@ -15,7 +16,7 @@ import { EagerThemeModule as KrexEagerThemeModule } from './krex/eager-theme.mod
     DSpaceEagerThemeModule,
     CustomEagerThemeModule,
     KrexEagerThemeModule,
-
+    EtdrEagerThemeModule,
   ],
 })
 export class EagerThemesModule {

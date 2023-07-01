@@ -64,6 +64,11 @@
                 "input": "src/themes/krex/styles/theme.scss",
                 "inject": false,
                 "bundleName": "krex-theme"
+              },
+              {
+                "input": "src/themes/etdr/styles/theme.scss",
+                "inject": false,
+                "bundleName": "etdr-theme"
               }
             ],
             "scripts": [],
