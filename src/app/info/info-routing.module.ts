@@ -16,6 +16,10 @@ import { AboutComponent } from './about/about.component';
 import { WORKS_FACULTY_PATH } from './info-routing-paths';
 import { WorksFacultyComponent } from './works/faculty/works-faculty.component';
 
+// KREx Student Works Pages
+import { WORKS_STUDENT_PATH } from './info-routing-paths';
+import { WorksStudentsComponent } from './works/students/works-students.component'
+
 const imports = [
   RouterModule.forChild([
     {
@@ -72,6 +76,18 @@ const imports = [
         data: { title: 'info.about.works.faculty.title', breadcrumbKey: 'info.about.works.faculty' }
       }
     ]));
+
+  // KREx Student Works page
+  imports.push(
+    RouterModule.forChild([
+      {
+        path: WORKS_STUDENT_PATH,
+        component: WorksStudentsComponent,
+        resolve: { breadcrumb: I18nBreadcrumbResolver },
+        data: { title: 'info.about.works.student.title', breadcrumbKey: 'info.about.works.student' }
+      }
+    ]));
+
 
 @NgModule({
   imports: [
