@@ -15,7 +15,6 @@ networks:
 services:
   dspace-angular:
     container_name: dspace-angular
-    platform: "linux/amd64"
     environment:
       DSPACE_UI_SSL: 'false'
       DSPACE_UI_HOST: dspace-angular
