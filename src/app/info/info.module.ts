@@ -17,6 +17,7 @@ import { FeedbackGuard } from '../core/feedback/feedback.guard';
 import { AboutComponent } from './about/about.component';
 import { WorksFacultyComponent } from './works/faculty/works-faculty.component';
 import { WorksStudentsComponent } from './works/students/works-students.component';
+import { LicenseComponent } from './license/license.component';
 
 
 const DECLARATIONS = [
@@ -33,6 +34,7 @@ const DECLARATIONS = [
   AboutComponent,
   WorksFacultyComponent,
   WorksStudentsComponent,
+  LicenseComponent,
 ];
 
 @NgModule({
