@@ -15,6 +15,7 @@ import { ThemedFeedbackComponent } from './feedback/themed-feedback.component';
 import { FeedbackGuard } from '../core/feedback/feedback.guard';
 
 import { AboutComponent } from './about/about.component';
+import { WorksFacultyComponent } from './works/faculty/works-faculty.component';
 
 
 const DECLARATIONS = [
@@ -29,6 +30,7 @@ const DECLARATIONS = [
   ThemedFeedbackFormComponent,
   ThemedFeedbackComponent,
   AboutComponent,
+  WorksFacultyComponent,
 ];
 
 @NgModule({
