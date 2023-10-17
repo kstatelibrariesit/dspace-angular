@@ -18,4 +18,7 @@
   "submission.import-external.back-to-my-dspace": "Back to MyK-REx",
   "submission.import-external.page.hint": "Enter a query above to find items from the web to import in to K-REx.",
   "login.form.shibboleth": "Login with K-State Account",
+  "info.about.breadcrumbs": "About K-REx",
+  "info.about.head": "About K-REx",
+  "info.about.title": "About K-REx",
 }
