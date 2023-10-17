@@ -84,7 +84,7 @@ const imports = [
         path: WORKS_STUDENT_PATH,
         component: WorksStudentsComponent,
         resolve: { breadcrumb: I18nBreadcrumbResolver },
-        data: { title: 'info.about.works.student.title', breadcrumbKey: 'info.about.works.student' }
+        data: { title: 'info.works.student.title', breadcrumbKey: 'info.works.student' }
       }
     ]));
 
