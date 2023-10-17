@@ -73,7 +73,7 @@ const imports = [
         path: WORKS_FACULTY_PATH,
         component: WorksFacultyComponent,
         resolve: { breadcrumb: I18nBreadcrumbResolver },
-        data: { title: 'info.about.works.faculty.title', breadcrumbKey: 'info.about.works.faculty' }
+        data: { title: 'info.works.faculty.title', breadcrumbKey: 'info.works.faculty' }
       }
     ]));
 
