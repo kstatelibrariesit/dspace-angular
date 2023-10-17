@@ -20,6 +20,10 @@ import { WorksFacultyComponent } from './works/faculty/works-faculty.component';
 import { WORKS_STUDENT_PATH } from './info-routing-paths';
 import { WorksStudentsComponent } from './works/students/works-students.component'
 
+// KREx License Page
+import { LICENSE_PATH } from './info-routing-paths';
+import { LicenseComponent } from './license/license.component'
+
 const imports = [
   RouterModule.forChild([
     {
@@ -85,6 +89,17 @@ const imports = [
         component: WorksStudentsComponent,
         resolve: { breadcrumb: I18nBreadcrumbResolver },
         data: { title: 'info.works.student.title', breadcrumbKey: 'info.works.student' }
+      }
+    ]));
+
+  // KREx License Page
+  imports.push(
+    RouterModule.forChild([
+      {
+        path: LICENSE_PATH,
+        component: LicenseComponent,
+        resolve: { breadcrumb: I18nBreadcrumbResolver },
+        data: { title: 'info.license.title', breadcrumbKey: 'info.license' }
       }
     ]));
 
