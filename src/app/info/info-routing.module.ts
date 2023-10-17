@@ -12,6 +12,10 @@ import { environment } from '../../environments/environment';
 import { ABOUT_PATH } from './info-routing-paths';
 import { AboutComponent } from './about/about.component';
 
+// KREx Faculty Works Pages
+import { WORKS_FACULTY_PATH } from './info-routing-paths';
+import { WorksFacultyComponent } from './works/faculty/works-faculty.component';
+
 const imports = [
   RouterModule.forChild([
     {
@@ -55,6 +59,17 @@ const imports = [
         component: AboutComponent,
         resolve: { breadcrumb: I18nBreadcrumbResolver },
         data: { title: 'info.about.title', breadcrumbKey: 'info.about' }
+      }
+    ]));
+
+  // KREx Faculty Works page
+  imports.push(
+    RouterModule.forChild([
+      {
+        path: WORKS_FACULTY_PATH,
+        component: WorksFacultyComponent,
+        resolve: { breadcrumb: I18nBreadcrumbResolver },
+        data: { title: 'info.about.works.faculty.title', breadcrumbKey: 'info.about.works.faculty' }
       }
     ]));
 
