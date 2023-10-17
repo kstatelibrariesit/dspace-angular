@@ -8,6 +8,8 @@ export const FEEDBACK_PATH = 'feedback';
 export const ABOUT_PATH = 'about';
 // KREx Faculty Works page
 export const WORKS_FACULTY_PATH = 'works/faculty';
+// KREx Student Works page
+export const WORKS_STUDENT_PATH = 'works/student';
 
 export function getEndUserAgreementPath() {
     return getSubPath(END_USER_AGREEMENT_PATH);
@@ -29,6 +31,11 @@ export function getAboutPath() {
 // KREx FacultyWorks Path
 export function getWorksFacultyPath() {
     return getSubPath(WORKS_FACULTY_PATH);
+}
+
+// KREx StudentsWorks Path
+export function getWorksStudentsPath() {
+    return getSubPath(WORKS_STUDENT_PATH);
 }
 
 function getSubPath(path: string) {
