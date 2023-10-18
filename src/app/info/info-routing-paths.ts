@@ -18,6 +18,8 @@ export const SYMBOLS_PATH = 'guidelines/symbols';
 export const ATTACHMENTS_PATH = 'guidelines/attachments';
 // KREx Authors page
 export const AUTHORS_PATH = 'guidelines/authors';
+// KREx Keywords page
+export const KEYWORDS_PATH = 'guidelines/keywords';
 
 export function getEndUserAgreementPath() {
     return getSubPath(END_USER_AGREEMENT_PATH);
@@ -64,6 +66,11 @@ export function getAttachmentsGuidelinesPath() {
 // KREx Authors Guidelines Path
 export function getAuthorGuidelinessPath() {
     return getSubPath(AUTHORS_PATH);
+}
+
+// KREx Keywords Guidelines Path
+export function getKeywordsGuidelinesPath() {
+    return getSubPath(KEYWORDS_PATH);
 }
 
 function getSubPath(path: string) {
