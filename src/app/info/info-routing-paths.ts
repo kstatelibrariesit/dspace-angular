@@ -15,6 +15,7 @@ export const LICENSE_PATH = 'license';
 // KREx SYMBOLS page
 export const SYMBOLS_PATH = 'guidelines/symbols';
 // KREx Attachments page
+export const ATTACHMENTS_PATH = 'guidelines/attachments';
 
 export function getEndUserAgreementPath() {
     return getSubPath(END_USER_AGREEMENT_PATH);
@@ -51,6 +52,11 @@ export function getLicensePath() {
 // KREx Symbols Guidelines Path
 export function getSymbolsGuidelinesPath() {
     return getSubPath(SYMBOLS_PATH);
+}
+
+// KREx Attachments Guidelines Path
+export function getAttachmentsGuidelinesPath() {
+    return getSubPath(ATTACHMENTS_PATH);
 }
 
 function getSubPath(path: string) {

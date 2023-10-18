@@ -28,6 +28,10 @@ import { LicenseComponent } from './license/license.component'
 import { SYMBOLS_PATH } from './info-routing-paths';
 import { SymbolsGudielinesComponent } from './guidelines/symbols/symbols.component'
 
+// KREx Attachment Guidelines Page
+import { ATTACHMENTS_PATH } from './info-routing-paths';
+import { AttachmentsGuidelinesComponent } from './guidelines/attachments/attachments.component'
+
 const imports = [
   RouterModule.forChild([
     {
@@ -115,6 +119,17 @@ const imports = [
         component: SymbolsGudielinesComponent,
         resolve: { breadcrumb: I18nBreadcrumbResolver },
         data: { title: 'info.guidelines.symbols.title', breadcrumbKey: 'info.guidelines.symbols' }
+      }
+    ]));
+
+  // KREx Attachments Guidelines Page
+  imports.push(
+    RouterModule.forChild([
+      {
+        path: ATTACHMENTS_PATH,
+        component: AttachmentsGuidelinesComponent,
+        resolve: { breadcrumb: I18nBreadcrumbResolver },
+        data: { title: 'info.guidelines.attachments.title', breadcrumbKey: 'info.guidelines.attachments' }
       }
     ]));
 
