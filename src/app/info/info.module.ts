@@ -20,7 +20,7 @@ import { WorksStudentsComponent } from './works/students/works-students.componen
 import { LicenseComponent } from './license/license.component';
 import { SymbolsGudielinesComponent } from './guidelines/symbols/symbols.component';
 import { AttachmentsGuidelinesComponent } from './guidelines/attachments/attachments.component';
-
+import { AuthorsGuidelinesComponent } from './guidelines/authors/authors.component';
 
 const DECLARATIONS = [
   EndUserAgreementComponent,
@@ -39,6 +39,7 @@ const DECLARATIONS = [
   LicenseComponent,
   SymbolsGudielinesComponent,
   AttachmentsGuidelinesComponent,
+  AuthorsGuidelinesComponent,
 ];
 
 @NgModule({
