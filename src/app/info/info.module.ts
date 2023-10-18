@@ -18,12 +18,8 @@ import { AboutComponent } from './about/about.component';
 import { WorksFacultyComponent } from './works/faculty/works-faculty.component';
 import { WorksStudentsComponent } from './works/students/works-students.component';
 import { LicenseComponent } from './license/license.component';
-<<<<<<< HEAD
-import { SymbolsComponent } from './symbols/symbols.component';
-=======
 import { SymbolsGudielinesComponent } from './guidelines/symbols/symbols.component';
 import { AttachmentsGuidelinesComponent } from './guidelines/attachments/attachments.component';
->>>>>>> 1d435fe6a (Symbols rebase)
 
 
 const DECLARATIONS = [
@@ -41,12 +37,8 @@ const DECLARATIONS = [
   WorksFacultyComponent,
   WorksStudentsComponent,
   LicenseComponent,
-<<<<<<< HEAD
-  SymbolsComponent,
-=======
   SymbolsGudielinesComponent,
   AttachmentsGuidelinesComponent,
->>>>>>> 1d435fe6a (Symbols rebase)
 ];
 
 @NgModule({
