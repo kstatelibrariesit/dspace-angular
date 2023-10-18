@@ -24,6 +24,10 @@ import { WorksStudentsComponent } from './works/students/works-students.componen
 import { LICENSE_PATH } from './info-routing-paths';
 import { LicenseComponent } from './license/license.component'
 
+// KREx Symbols Guidelines Page
+import { SYMBOLS_PATH } from './info-routing-paths';
+import { SymbolsGudielinesComponent } from './guidelines/symbols/symbols.component'
+
 const imports = [
   RouterModule.forChild([
     {
@@ -103,6 +107,16 @@ const imports = [
       }
     ]));
 
+  // KREx Symbols Guidelines Page
+  imports.push(
+    RouterModule.forChild([
+      {
+        path: SYMBOLS_PATH,
+        component: SymbolsGudielinesComponent,
+        resolve: { breadcrumb: I18nBreadcrumbResolver },
+        data: { title: 'info.guidelines.symbols.title', breadcrumbKey: 'info.guidelines.symbols' }
+      }
+    ]));
 
 @NgModule({
   imports: [
