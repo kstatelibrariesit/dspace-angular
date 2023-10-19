@@ -24,12 +24,8 @@ jobs:
 
     strategy:
         matrix:
-            os: [ubuntu-latest, macos-13-arm64]
-            include:
-                - os: ubuntu-latest
-                  arch: amd64
-                - os: macos-13-arm64
-                  arch: arm64
+            arch: ['linux/amd64', 'linux/arm64']
+            os: [ubuntu-latest]
     runs-on: ${{ matrix.os }}
     env:
       # Define tags to use for Docker images based on Git tags/branches (for docker/metadata-action)
