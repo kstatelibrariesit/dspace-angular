@@ -14,11 +14,23 @@ on:
 permissions:
   contents: read  #  to fetch code (actions/checkout)
 
+
+
+
 jobs:
   docker:
     # Ensure this job never runs on forked repos. It's only executed for 'kstatelibrariesit/krex-angular'
     if: github.repository == 'kstatelibrariesit/dspace-angular'
-    runs-on: ubuntu-latest
+
+    strategy:
+        matrix:
+            os: [ubuntu-latest, macos-13-arm64]
+            include:
+                - os: ubuntu-latest
+                  arch: amd64
+                - os: macos-13-arm64
+                  arch: arm64
+    runs-on: ${{ matrix.os }}
     env:
       # Define tags to use for Docker images based on Git tags/branches (for docker/metadata-action)
       # For a new commit on default branch (main), use the literal tag 'dspace-7_x' on Docker image.
@@ -37,7 +49,7 @@ jobs:
       # If this is a PR, we ONLY build for AMD64. For PRs we only do a sanity check test to ensure Docker builds work.
       # If this is NOT a PR (e.g. a tag or merge commit), also build for ARM64.
     #   PLATFORMS: linux/amd64${{ github.event_name != 'pull_request' && ', linux/arm64' || '' }}
-      PLATFORMS: linux/amd64
+      PLATFORMS: ${{ matrix.arch }}
 
     steps:
       # https://github.com/actions/checkout
