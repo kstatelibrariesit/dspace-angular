@@ -1,0 +1,46 @@
+<div class="row row-cols-1 row-cols-md-2 mb-2 text-center">
+
+  <div class="col">
+    <div class="card h-100 mb-4 rounded-3 shadow-sm">
+      <div class="card-header py-3">
+        <h4 class="my-0 fw-normal">Graduate students</h4>
+      </div>
+      <div class="card-body">
+        <p class="card-text card-title">Submit Thesis, Dissertation, or Report (ETDR)</p>
+        <ol class="text-left">
+          <li><a routerLink="/mydspace" target="_blank">Login</a></li>
+          <li>
+            <a routerLink="/submit" [queryParams]="{ 'collection': '6d684812-6d29-4564-8b51-f5670957936b' }">
+              {{ 'mydspace.title' | translate }}
+            </a>
+          </li>
+          <li>Drag & Drop PDF</li>
+          <li>Complete Submission Form</li>
+        </ol>
+      </div>
+      <div class="card-footer text-body-secondary">
+        <a href="https://www.k-state.edu/grad/academics/etdr/template/">Resources</a> | <a href="https://www.k-state.edu/grad/academics/etdr/help-contact/">Help</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 mb-4 rounded-3 shadow-sm">
+      <div class="card-header py-3">
+        <h4 class="my-0 fw-normal">Faculty</h4>
+      </div>
+      <div class="card-body">
+        <p class="card-text card-title">Submit Research, Scholarly and Creative Activities, and Design (RSCAD) Works</p>
+        <p class="card-text">
+          <a href="https://kstate.qualtrics.com/jfe/form/SV_8pGts2e6MLVapKd">
+            <button type="button" class="w-100 btn btn-primary">Submission Form</button>
+          </a>
+        </p>
+      </div>
+      <div class="card-footer text-body-secondary">
+        Permissions help | Policies
+      </div>
+
+    </div>
+  </div>
+</div>
