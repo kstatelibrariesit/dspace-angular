@@ -36,6 +36,21 @@ themes:
     # handle: '2097/4'
     uuid: '6d684812-6d29-4564-8b51-f5670957936b'
 
+  - name: etdr
+    extends: krex
+    # handle: '2097/4234'
+    uuid: 'c786bb54-ccbc-435c-b310-d41465c3eede'
+
+  - name: etdr
+    extends: krex
+    # handle: '2097/1064'
+    uuid: 'd7856439-3d4d-43ea-8016-89bfed705f47'
+
+  - name: etdr
+    extends: krex
+    # handle: '2097/39169'
+    uuid: '6f9a9785-2a0f-4e15-ac59-947ee95ed896'
+
   # default theme, based on DSpace
   - name: krex
     headTags:
