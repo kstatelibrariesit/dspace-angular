@@ -42,4 +42,12 @@
   "info.guidelines.keywords.breadcrumbs": "ETDR Guidelines: Keywords",
   "info.guidelines.keywords.head": "ETDR Guidelines: Keywords",
   "info.guidelines.keywords.title": "ETDR Guidelines: Keywords",
+  "menu.section.browse_global_communities_and_collections": "Communities and collections
+  "browse.metadata.published": "Published Date",
+  "browse.metadata.published.breadcrumbs": "Browse by Published Date",
+  "menu.section.browse_global_by_published": "By Published Date",
+  "home.search-form.placeholder": "Search scholarly works, historical documents and images...",
+  "search.filters.filter.etdrAdvisor.head": "Major advisor",
+  "search.filters.filter.etdrAdvisor.placeholder": "Major advisor name",
+  "search.filters.filter.etdrAdvisor.label": "Search major advisor name",
 }

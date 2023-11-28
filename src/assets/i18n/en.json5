@@ -1834,7 +1834,7 @@
 
   "home.breadcrumbs": "Home",
 
-  "home.search-form.placeholder": "Search the repository ...",
+  "home.search-form.placeholder": "Search scholarly works, historical documents and images...",
 
   "home.title": "Home",
 
@@ -2832,7 +2832,7 @@
 
   "menu.section.browse_global_by_title": "By Title",
 
-  "menu.section.browse_global_communities_and_collections": "Communities & Collections",
+  "menu.section.browse_global_communities_and_collections": "Communities and collections",
 
   "menu.section.control_panel": "Control Panel",
 
@@ -5295,4 +5295,11 @@
   "info.guidelines.keywords.head": "ETDR Guidelines: Keywords",
 
   "info.guidelines.keywords.title": "ETDR Guidelines: Keywords",
+
+  "menu.section.browse_global_by_published": "By Published Date",
+  "browse.metadata.published": "Published Date",
+  "browse.metadata.published.breadcrumbs": "Browse by Published Date",
+  "search.filters.filter.etdrAdvisor.head": "Major advisor",
+  "search.filters.filter.etdrAdvisor.placeholder": "Major advisor name",
+  "search.filters.filter.etdrAdvisor.label": "Search major advisor name",
 }
