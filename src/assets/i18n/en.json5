@@ -5286,6 +5286,7 @@
 
   "browse.metadata.datepublished": "Published Date",
   "browse.metadata.datepublished.breadcrumbs": "Browse by Published Date",
+  "browse.comcol.by.datepublished": "By Published Date",
   "menu.section.browse_global_by_datepublished": "By Published Date",
   "search.filters.filter.etdrAdvisor.head": "Major advisor",
   "search.filters.filter.etdrAdvisor.placeholder": "Major advisor name",
