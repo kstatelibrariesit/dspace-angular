@@ -5278,10 +5278,11 @@
 
   "info.guidelines.keywords.title": "ETDR Guidelines: Keywords",
 
-  "menu.section.browse_global_by_published": "By Published Date",
-  "browse.metadata.published": "Published Date",
-  "browse.metadata.published.breadcrumbs": "Browse by Published Date",
+  "browse.metadata.datepublished": "Published Date",
+  "browse.metadata.datepublished.breadcrumbs": "Browse by Published Date",
+  "menu.section.browse_global_by_datepublished": "By Published Date",
   "search.filters.filter.etdrAdvisor.head": "Major advisor",
   "search.filters.filter.etdrAdvisor.placeholder": "Major advisor name",
   "search.filters.filter.etdrAdvisor.label": "Search major advisor name",
+  "search.filters.applied.f.etdrAdvisor": "Major advisor",
 }
