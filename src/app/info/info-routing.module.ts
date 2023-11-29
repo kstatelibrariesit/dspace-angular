@@ -32,6 +32,10 @@ import { AuthorsGuidelinesComponent } from './guidelines/authors/authors.compone
 import { KEYWORDS_PATH } from './info-routing-paths';
 import { KeywordsGuidelinesComponent } from './guidelines/keywords/keywords.component'
 
+// KREx policies page
+import { POLICIES_PATH } from './info-routing-paths';
+import { PoliciesComponent } from './policies/policies.component';
+
 const imports = [
   RouterModule.forChild([
     {
@@ -130,6 +134,17 @@ const imports = [
         component: KeywordsGuidelinesComponent,
         resolve: { breadcrumb: I18nBreadcrumbResolver },
         data: { title: 'info.guidelines.keywords.title', breadcrumbKey: 'info.guidelines.keywords' }
+      }
+    ]));
+
+  // KREx policy page
+  imports.push(
+    RouterModule.forChild([
+      {
+        path: POLICIES_PATH,
+        component: PoliciesComponent,
+        resolve: { breadcrumb: I18nBreadcrumbResolver },
+        data: { title: 'info.policies.title', breadcrumbKey: 'info.policies' }
       }
     ]));
 

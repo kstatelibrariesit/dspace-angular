@@ -5291,4 +5291,7 @@
   "search.filters.filter.etdrAdvisor.placeholder": "Major advisor name",
   "search.filters.filter.etdrAdvisor.label": "Search major advisor name",
   "search.filters.applied.f.etdrAdvisor": "Major advisor",
+  "info.policies.breadcrumbs": "Policies",
+  "info.policies.head": "K-REx Policies",
+  "info.policies.title": "K-REx Policies",
 }

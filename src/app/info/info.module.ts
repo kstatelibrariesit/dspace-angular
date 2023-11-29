@@ -20,6 +20,7 @@ import { SymbolsGudielinesComponent } from './guidelines/symbols/symbols.compone
 import { AttachmentsGuidelinesComponent } from './guidelines/attachments/attachments.component';
 import { AuthorsGuidelinesComponent } from './guidelines/authors/authors.component';
 import { KeywordsGuidelinesComponent } from './guidelines/keywords/keywords.component';
+import { PoliciesComponent } from './policies/policies.component';
 
 const DECLARATIONS = [
   EndUserAgreementComponent,
@@ -37,7 +38,8 @@ const DECLARATIONS = [
   SymbolsGudielinesComponent,
   AttachmentsGuidelinesComponent,
   AuthorsGuidelinesComponent,
-  KeywordsGuidelinesComponent
+  KeywordsGuidelinesComponent,
+  PoliciesComponent,
 ];
 
 @NgModule({
