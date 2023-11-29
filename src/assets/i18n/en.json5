@@ -3008,7 +3008,7 @@
 
   "mydspace.results.no-uri": "No Uri",
 
-  "mydspace.search-form.placeholder": "Search in mydspace...",
+  "mydspace.search-form.placeholder": "Search in MyK-REx...",
 
   "mydspace.show.workflow": "Workflow tasks",
 
@@ -4742,7 +4742,7 @@
 
   "thumbnail.person.placeholder": "No Profile Picture Available",
 
-  title: "DSpace",
+  title: "K-REx",
 
   "vocabulary-treeview.header": "Hierarchical tree view",
 
@@ -5285,14 +5285,24 @@
   "info.guidelines.keywords.title": "ETDR Guidelines: Keywords",
 
   "browse.metadata.datepublished": "Published Date",
+
   "browse.metadata.datepublished.breadcrumbs": "Browse by Published Date",
+
   "browse.comcol.by.datepublished": "By Published Date",
+
   "menu.section.browse_global_by_datepublished": "By Published Date",
+
   "search.filters.filter.etdrAdvisor.head": "Major advisor",
+
   "search.filters.filter.etdrAdvisor.placeholder": "Major advisor name",
+
   "search.filters.filter.etdrAdvisor.label": "Search major advisor name",
+
   "search.filters.applied.f.etdrAdvisor": "Major advisor",
+
   "info.policies.breadcrumbs": "Policies",
+
   "info.policies.head": "K-REx Policies",
+
   "info.policies.title": "K-REx Policies",
 }
