@@ -12,14 +12,6 @@ import { environment } from '../../environments/environment';
 import { ABOUT_PATH } from './info-routing-paths';
 import { AboutComponent } from './about/about.component';
 
-// KREx Faculty Works Pages
-import { WORKS_FACULTY_PATH } from './info-routing-paths';
-import { WorksFacultyComponent } from './works/faculty/works-faculty.component';
-
-// KREx Student Works Pages
-import { WORKS_STUDENT_PATH } from './info-routing-paths';
-import { WorksStudentsComponent } from './works/students/works-students.component'
-
 // KREx License Page
 import { LICENSE_PATH } from './info-routing-paths';
 import { LicenseComponent } from './license/license.component'
@@ -83,28 +75,6 @@ const imports = [
         component: AboutComponent,
         resolve: { breadcrumb: I18nBreadcrumbResolver },
         data: { title: 'info.about.title', breadcrumbKey: 'info.about' }
-      }
-    ]));
-
-  // KREx Faculty Works page
-  imports.push(
-    RouterModule.forChild([
-      {
-        path: WORKS_FACULTY_PATH,
-        component: WorksFacultyComponent,
-        resolve: { breadcrumb: I18nBreadcrumbResolver },
-        data: { title: 'info.works.faculty.title', breadcrumbKey: 'info.works.faculty' }
-      }
-    ]));
-
-  // KREx Student Works page
-  imports.push(
-    RouterModule.forChild([
-      {
-        path: WORKS_STUDENT_PATH,
-        component: WorksStudentsComponent,
-        resolve: { breadcrumb: I18nBreadcrumbResolver },
-        data: { title: 'info.works.student.title', breadcrumbKey: 'info.works.student' }
       }
     ]));
 

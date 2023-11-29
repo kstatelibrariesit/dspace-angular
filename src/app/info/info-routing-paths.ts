@@ -6,10 +6,6 @@ export const FEEDBACK_PATH = 'feedback';
 
 // KREx about page
 export const ABOUT_PATH = 'about';
-// KREx Faculty Works page
-export const WORKS_FACULTY_PATH = 'works/faculty';
-// KREx Student Works page
-export const WORKS_STUDENT_PATH = 'works/student';
 // KREx LICENSE page
 export const LICENSE_PATH = 'license';
 // KREx SYMBOLS page
@@ -36,16 +32,6 @@ export function getFeedbackPath() {
 // KREx About Path
 export function getAboutPath() {
     return getSubPath(ABOUT_PATH);
-}
-
-// KREx FacultyWorks Path
-export function getWorksFacultyPath() {
-    return getSubPath(WORKS_FACULTY_PATH);
-}
-
-// KREx StudentsWorks Path
-export function getWorksStudentsPath() {
-    return getSubPath(WORKS_STUDENT_PATH);
 }
 
 // KREx License Path

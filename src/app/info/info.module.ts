@@ -15,8 +15,6 @@ import { ThemedFeedbackComponent } from './feedback/themed-feedback.component';
 import { FeedbackGuard } from '../core/feedback/feedback.guard';
 
 import { AboutComponent } from './about/about.component';
-import { WorksFacultyComponent } from './works/faculty/works-faculty.component';
-import { WorksStudentsComponent } from './works/students/works-students.component';
 import { LicenseComponent } from './license/license.component';
 import { SymbolsGudielinesComponent } from './guidelines/symbols/symbols.component';
 import { AttachmentsGuidelinesComponent } from './guidelines/attachments/attachments.component';
@@ -35,8 +33,6 @@ const DECLARATIONS = [
   ThemedFeedbackFormComponent,
   ThemedFeedbackComponent,
   AboutComponent,
-  WorksFacultyComponent,
-  WorksStudentsComponent,
   LicenseComponent,
   SymbolsGudielinesComponent,
   AttachmentsGuidelinesComponent,
