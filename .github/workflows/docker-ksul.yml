@@ -37,10 +37,10 @@ jobs:
 
     strategy:
         matrix:
-            isPr:
-                - ${{ github.event_name == 'pull_request' }}
             arch: ['linux/amd64', 'linux/arm64']
             os: [ubuntu-latest]
+            isPr:
+              - ${{ github.event_name == 'pull_request' }}
             exclude:
                 - isPr: true
                   os: ubuntu-latest
