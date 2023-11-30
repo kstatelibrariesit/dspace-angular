@@ -1,12 +1,16 @@
 <div class="background-image-container mt-ncs">
   <div class="container">
     <div class="jumbotron jumbotron-fluid">
-      <div class="d-flex flex-wrap">
+      <div>
         <div>
-          <h2 class="display-5">K-State Research Exchange (K-REx)</h2>
+          <h2 class="display-5">K-State Research Exchange<span class="d-none d-md-inline"> (K-REx)</span></h2>
           <p>The university's digital repository.</p>
+          <div class="shadow-md p-3 bg-light rounded">
+            <ds-themed-search-form [inPlaceSearch]="false" [searchPlaceholder]="'home.search-form.placeholder' | translate"></ds-themed-search-form>
+          </div>
         </div>
       </div>
+
     </div>
   </div>
   <picture class="background-image">
