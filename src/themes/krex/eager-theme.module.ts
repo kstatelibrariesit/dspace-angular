@@ -13,6 +13,7 @@ import { KsuEnvironmentBannerComponent } from './app/ksu-environment-banner/ksu-
 import { KsuHeaderComponent } from './app/ksu-header/ksu-header.component';
 import { FooterComponent } from './app/footer/footer.component';
 import { KsuFooterComponent } from './app/ksu-footer/ksu-footer.component';
+import { SearchFormComponent } from './app/shared/search-form/search-form.component';
 
 /**
  * Add components that use a custom decorator to ENTRY_COMPONENTS as well as DECLARATIONS.
@@ -30,6 +31,7 @@ const DECLARATIONS = [
   KsuHeaderComponent,
   FooterComponent,
   KsuFooterComponent,
+  SearchFormComponent,
 ];
 
 @NgModule({
