@@ -13,20 +13,6 @@
         <li *ngFor="let section of (sections | async)">
           <ng-container *ngComponentOutlet="(sectionMap$ | async).get(section.id)?.component; injector: (sectionMap$ | async).get(section.id)?.injector;"></ng-container>
         </li>
-        <li class="nav-item d-flex align-items-center">
-          <div class="text-md-center">
-            <a class="nav-item nav-link" routerLink="/info/about">
-              {{ 'info.about.title' | translate }}
-            </a>
-          </div>
-        </li>
-        <li class="nav-item d-flex align-items-center">
-          <div class="text-md-center">
-            <a class="nav-link" routerLink="/info/policies">
-               {{ 'info.policies.title' | translate }}
-            </a>
-          </div>
-        </li>
       </ul>
     </div>
     <div class="navbar-buttons d-flex align-items-center gapx-1">

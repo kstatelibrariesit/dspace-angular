@@ -137,6 +137,29 @@ export class MenuResolver implements Resolve<boolean> {
               } as TextMenuItemModel,
             }
           );
+          menuList.push({
+            id: `krex_menu_about`,
+            active: false,
+            visible: true,
+            index: 2,
+            model: {
+              type: MenuItemType.LINK,
+              text: 'menu.section.about',
+              link: `/info/about`
+            } as LinkMenuItemModel
+          });
+
+          menuList.push({
+            id: `krex_menu_policies`,
+            active: false,
+            visible: true,
+            index: 3,
+            model: {
+              type: MenuItemType.LINK,
+              text: 'menu.section.policies',
+              link: `/info/policies`
+            } as LinkMenuItemModel
+          });
         }
         menuList.forEach((menuSection) => this.menuService.addSection(MenuID.PUBLIC, Object.assign(menuSection, {
           shouldPersistOnRouteChange: true
