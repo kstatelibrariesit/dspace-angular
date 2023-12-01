@@ -29,6 +29,17 @@ item:
   # Show the item access status label in items lists (default=false)
   showAccessStatuses: true
 
+homePage:
+  recentSubmissions:
+    # The number of item showing in recent submissions list. Set to "0" to hide all recent submissions
+    pageSize: 0
+    # Date field to use to sort recent submissions
+    sortField: 'dc.date.accessioned'
+  topLevelCommunityList:
+    # Number of communities to list (per page) on the home page
+    # This will always round to the nearest number from the list of page sizes. e.g. if you set it to 7 it'll use 10
+    pageSize: 5
+
 themes:
   # Specific Item
   # - name: etdr
