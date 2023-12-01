@@ -53,4 +53,9 @@
   "search.filters.filter.etdrAdvisor.placeholder": "Major advisor name",
   "search.filters.filter.etdrAdvisor.label": "Search major advisor name",
   "search.filters.applied.f.etdrAdvisor": "Major advisor",
+  "menu.section.navigate": "Navigate K-REx",
+  "menu.section.navigate.search_all": "Search all content",
+  "menu.section.navigate.digital_archives": "K-State Libraries Digital Archives",
+  "menu.section.navigate.etdr": "Graduate Theses, Dissertations, and Reports",
+  "menu.section.navigate.rscad": "Works of Research, Scholary and Creative Activities and Discovery",
 }

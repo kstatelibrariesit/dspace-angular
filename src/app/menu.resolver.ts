@@ -98,7 +98,7 @@ export class MenuResolver implements Resolve<boolean> {
         id: `browse_global_communities_and_collections`,
         active: false,
         visible: true,
-        index: 0,
+        index: 2,
         model: {
           type: MenuItemType.LINK,
           text: `menu.section.browse_global_communities_and_collections`,
@@ -137,11 +137,69 @@ export class MenuResolver implements Resolve<boolean> {
               } as TextMenuItemModel,
             }
           );
+
+          menuList.push({
+            id: `navigate_krex_link1`,
+            parentID: 'navigate_krex',
+            active: false,
+            visible: true,
+            model: {
+              type: MenuItemType.LINK,
+              text: 'menu.section.navigate.etdr',
+              link: `/communities/f152864b-1dab-4dae-a7d7-b5b6daacfc4b`
+            } as LinkMenuItemModel
+          });
+          menuList.push({
+            id: `navigate_krex_link2`,
+            parentID: 'navigate_krex',
+            active: false,
+            visible: true,
+            model: {
+              type: MenuItemType.LINK,
+              text: 'menu.section.navigate.rscad',
+              link: `/communities/39b3c307-6d3f-4a83-aedd-e202d252a48b`
+            } as LinkMenuItemModel
+          });
+          menuList.push({
+            id: `navigate_krex_link3`,
+            parentID: 'navigate_krex',
+            active: false,
+            visible: true,
+            model: {
+              type: MenuItemType.LINK,
+              text: 'menu.section.navigate.digital_archives',
+              link: `communities/b69f09a9-b5ef-437e-ae79-27efe01a514e`
+            } as LinkMenuItemModel
+          });
+          menuList.push({
+            id: `navigate_krex_link_4`,
+            parentID: 'navigate_krex',
+            active: false,
+            visible: true,
+            model: {
+              type: MenuItemType.LINK,
+              text: 'menu.section.navigate.search_all',
+              link: `/search`
+            } as LinkMenuItemModel
+          });
+          menuList.push(
+            /* Navigate K-REx */
+            {
+              id: 'navigate_krex',
+              active: false,
+              visible: true,
+              index: 0,
+              model: {
+                type: MenuItemType.TEXT,
+                text: 'menu.section.navigate'
+              } as TextMenuItemModel,
+            }
+          );
           menuList.push({
             id: `krex_menu_about`,
             active: false,
             visible: true,
-            index: 2,
+            index: 4,
             model: {
               type: MenuItemType.LINK,
               text: 'menu.section.about',
@@ -153,7 +211,7 @@ export class MenuResolver implements Resolve<boolean> {
             id: `krex_menu_policies`,
             active: false,
             visible: true,
-            index: 2,
+            index: 5,
             model: {
               type: MenuItemType.LINK,
               text: 'menu.section.policies',

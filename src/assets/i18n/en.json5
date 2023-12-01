@@ -5309,4 +5309,14 @@
   "menu.section.about": "About",
 
   "menu.section.policies": "Policies",
+
+  "menu.section.navigate": "Navigate K-REx",
+
+  "menu.section.navigate.search_all": "Search all content",
+
+  "menu.section.navigate.digital_archives": "K-State Libraries Digital Archives",
+
+  "menu.section.navigate.etdr": "Graduate Theses, Dissertations, and Reports",
+
+  "menu.section.navigate.rscad": "Works of Research, Scholary and Creative Activities and Discovery",
 }
