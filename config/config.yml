@@ -25,6 +25,10 @@ mediaViewer:
   image: true
   video: true
 
+item:
+  # Show the item access status label in items lists (default=false)
+  showAccessStatuses: true
+
 themes:
   # Specific Item
   # - name: etdr
