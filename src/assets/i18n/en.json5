@@ -2832,7 +2832,7 @@
 
   "menu.section.browse_global_by_title": "By Title",
 
-  "menu.section.browse_global_communities_and_collections": "Communities and collections",
+  "menu.section.browse_global_communities_and_collections": "All communities and collections",
 
   "menu.section.control_panel": "Control Panel",
 
@@ -5310,7 +5310,7 @@
 
   "menu.section.policies": "Policies",
 
-  "menu.section.navigate": "Navigate K-REx",
+  "menu.section.navigate": "Communities and collections",
 
   "menu.section.navigate.search_all": "Search all content",
 
@@ -5318,5 +5318,5 @@
 
   "menu.section.navigate.etdr": "Graduate Theses, Dissertations, and Reports",
 
-  "menu.section.navigate.rscad": "Works of Research, Scholarly and Creative Activities, and Discovery",
+  "menu.section.navigate.rscad": "Research, Scholarly and Creative Activities, and Discovery Works",
 }
