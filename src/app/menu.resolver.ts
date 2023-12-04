@@ -97,8 +97,7 @@ export class MenuResolver implements Resolve<boolean> {
       {
         id: `browse_global_communities_and_collections`,
         active: false,
-        visible: true,
-        parentID: 'navigate_krex',
+        visible: false,
         index: 0,
         model: {
           type: MenuItemType.LINK,
@@ -138,6 +137,19 @@ export class MenuResolver implements Resolve<boolean> {
               } as TextMenuItemModel,
             }
           );
+
+          menuList.push({
+            id: `navigate_krex_communinity_collections`,
+            active: false,
+            visible: true,
+            parentID: 'navigate_krex',
+            index: 0,
+            model: {
+              type: MenuItemType.LINK,
+              text: `menu.section.browse_global_communities_and_collections`,
+              link: `/community-list`
+            } as LinkMenuItemModel
+          });
 
           menuList.push({
             id: `navigate_krex_link1`,
