@@ -18,6 +18,6 @@ export class KsuEnvironmentBannerComponent implements OnInit {
 
     this.bannerText = bannerConfig?.text;
     this.bannerEnabled = bannerConfig?.enabled;
-    this.bannerStyle = { 'text-align': 'center', 'color': bannerConfig?.foregroundColor, 'background-color': bannerConfig?.backgroundColor };
+    this.bannerStyle = { 'color': bannerConfig?.foregroundColor, 'background-color': bannerConfig?.backgroundColor };
   }
 }
