@@ -62,11 +62,13 @@ import { ItemVersionsModule } from '../../app/item-page/versions/item-versions.m
 import { ItemSharedModule } from 'src/app/item-page/item-shared.module';
 import { HomePageComponent } from './app/home-page/home-page.component';
 import { KsuHomeBelowSearchBarComponent } from './app/home-page/ksu-home-below-search-bar/ksu-home-below-search-bar.component';
+import { LoginPageComponent } from './app/login-page/login-page.component';
 
 
 const DECLARATIONS = [
   HomePageComponent,
-  KsuHomeBelowSearchBarComponent
+  KsuHomeBelowSearchBarComponent,
+  LoginPageComponent,
 ];
 
 @NgModule({
