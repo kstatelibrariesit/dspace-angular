@@ -75,3 +75,9 @@ themes:
           rel: icon
           href: assets/krex/images/favicons/favicon.ico
           sizes: any
+
+environmentBanner:
+  text: 'K-REx Production Environment'
+  foregroundColor: '#fff'
+  backgroundColor: '#996f00'
+  enabled: false
