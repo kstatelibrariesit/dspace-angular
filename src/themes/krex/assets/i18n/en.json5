@@ -58,4 +58,11 @@
   "menu.section.navigate.digital_archives": "K-State Libraries Digital Collections",
   "menu.section.navigate.etdr": "Graduate Theses, Dissertations, and Reports",
   "menu.section.navigate.rscad": "Research, Scholarly and Creative Activities, and Discovery Works",
+  "submission.sections.describe.etdpageone.authors.hint": "Enter your name in the same form as it appears on your title page. Use standard capitalization; do not enter your name in all capital letters. For more information on how to enter names, follow the steps <a href='/info/guidelines/authors' target='_blank'>here</a>.",
+  "submission.sections.describe.etdpageone.title.hint": "Copy and paste the title of your ETDR. If your title contains mathematical operators or other symbols that do not display properly within the Title input box, follow the steps <a href='/info/guidelines/symbols' target='_blank'>here</a>.",
+  "submission.sections.describe.etdpageone.professors.hint": "Select your major professor(s). If you have co-major professors, hold down the Ctrl key and left click to select multiple names. If your major professor is not listed, select \"Major Professor Not Listed\".",
+  "submission.sections.describe.etdpageone.language.hint": "Select the language of the main content of the item. If the language does not appear in the list below, please select 'Other'. If the content does not really have a language (for example, if it is a dataset or an image) pleaseselect 'N/A'.",
+  "submission.sections.describe.etdpagetwo.keywords.hint": "Enter from 1 to 6 keywords for your ETDR. See <a href='/info/guidelines/keywords' target='_blank'>here</a> for selecting keywords. Select the \"Add\" button after entering a keyword or keyword phrase.",
+  "submission.sections.describe.etdpagetwo.symbols.hint": "Copy and paste the text of your abstract here. Do not include the heading \"Abstract.\" If your abstract contains mathematical operators or other symbols that do not display properly within the Abstract input box, follow the steps <a href='/info/guidelines/keywords' target='_blank'>here</a>.",
+  "submission.sections.describe.etdpagetwo.sponsorship.hint": "(Optional) Enter the names of agencies, if any, that helped to fund your research. Do not use acronyms or abbreviations. If you did not have a source of funding for your research, leave this space blank.",
 }
