@@ -48,24 +48,16 @@ homePage:
     pageSize: 5
 
 themes:
-  # Specific Item
-  # - name: etdr
-  #   extends: krex
-  #   handle: '2097/43295'
-
   - name: etdr
     extends: krex
-    # handle: '2097/4'
-    uuid: '6d684812-6d29-4564-8b51-f5670957936b'
-
-  - name: etdr
-    extends: krex
-    # handle: '2097/4234'
-    uuid: 'c786bb54-ccbc-435c-b310-d41465c3eede'
+    # handle: '2097/1'
+    # Electronic Theses, Dissertations, and Reports
+    uuid: 'f152864b-1dab-4dae-a7d7-b5b6daacfc4b'
 
   - name: etdr
     extends: krex
     # handle: '2097/1064'
+    # Master of Public Health Student Reports and Theses
     uuid: 'd7856439-3d4d-43ea-8016-89bfed705f47'
 
   - name: etdr
