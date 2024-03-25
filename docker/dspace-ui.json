@@ -4,9 +4,9 @@
          "name": "dspace-ui",
          "cwd": "/app",
          "script": "dist/server/main.js",
-         "instances": 3,
+         "instances": 2,
          "exec_mode": "cluster",
-         "max_memory_restart": "500M",
+         "max_memory_restart": "1024M",
          "node_args": "--max_old_space_size=4096"
       }
   ]
