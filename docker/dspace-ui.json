@@ -6,7 +6,7 @@
          "script": "dist/server/main.js",
          "instances": 2,
          "exec_mode": "cluster",
-         "max_memory_restart": "1024M",
+         "max_memory_restart": "2500M",
          "node_args": "--max_old_space_size=4096"
       }
   ]

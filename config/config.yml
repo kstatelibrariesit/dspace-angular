@@ -7,7 +7,7 @@ rest:
 cache:
   serverSide:
     botCache:
-      max: 20
+      max: 1000
     anonymousCache:
       max: 100
 
