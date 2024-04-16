@@ -10,9 +10,9 @@ name: Docker images
 on:
   push:
     branches:
-      - 'ksul_dspace--**'
+      - 'ksul_dspace-**'
     tags:
-      - 'ksul_dspace--**'
+      - 'ksul_dspace-**'
   pull_request:
 
 permissions:
