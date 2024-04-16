@@ -15,7 +15,7 @@ permissions:
   contents: read  #  to fetch code (actions/checkout)
 
 env:
-  REGISTRY_IMAGE: kstatelibraries/krex-angular
+  REGISTRY_IMAGE: kstatelibraries/krex-dspace-angular
   # Define tags to use for Docker images based on Git tags/branches (for docker/metadata-action)
   # For a new commit on default branch (main), use the literal tag 'dspace-7_x' on Docker image.
   # For a new commit on other branches, use the branch name as the tag for Docker image.
