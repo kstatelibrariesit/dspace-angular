@@ -11,6 +11,13 @@ cache:
     anonymousCache:
       max: 100
 
+universal:
+  # Whether to inline "critical" styles into the server-side rendered HTML.
+  # Determining which styles are critical is a relatively expensive operation;
+  # this option can be disabled to boost server performance at the expense of
+  # loading smoothness.
+  inlineCriticalCss: false
+
 info:
   # Whether the end user agreement is required before users may use the repository.
   # If enabled, the user will be required to accept the agreement before they can use the repository.
