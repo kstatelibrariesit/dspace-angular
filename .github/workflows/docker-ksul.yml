@@ -3,9 +3,9 @@ name: Docker images
 
 # Run this Build for all pushes to 'main' or maintenance branches, or tagged releases.
 # Also run for PRs to ensure PR doesn't break Docker build process
-# NOTE: uses "reusable-docker-build.yml" in kstatelibrariesit/kstatelibrariesit to
+# NOTE: uses "reusable-docker-build.yml" in kstatelibraries/kstatelibraries to
 # actually build each of the Docker images
-# https://github.com/kstatelibrariesit/kstatelibrariesit/blob/main/.github/workflows/reusable-docker-build.yml
+# https://github.com/kstatelibraries/kstatelibraries/blob/main/.github/workflows/reusable-docker-build.yml
 #
 on:
   push:
@@ -20,13 +20,13 @@ permissions:
 
 jobs:
   #############################################################
-  # Build/Push the 'dspace/dspace-angular' image
+  # Build/Push the 'kstatelibraries/krex-dspace-angular' image
   #############################################################
   krex-dspace-angular:
-    # Ensure this job never runs on forked repos. It's only executed for 'kstatelibrariesit/dspace-angular'
-    if: github.repository == 'kstatelibrariesit/dspace-angular'
-    # Use the reusable-docker-build.yml script from DSpace/DSpace repo to build our Docker image
-    uses: kstatelibrariesit/kstatelibrariesit/.github/workflows/reusable-docker-build.yml@main
+    # Ensure this job never runs on forked repos. It's only executed for 'kstatelibraries/dspace-angular'
+    if: github.repository == 'kstatelibraries/dspace-angular'
+    # Use the reusable-docker-build.yml script from kstatelibraries/kstatelibraries repo to build our Docker image
+    uses: kstatelibraries/kstatelibraries/.github/workflows/reusable-docker-build.yml@main
     with:
       build_id: dspace-dspace-angular-dev
       image_name: kstatelibraries/krex-dspace-angular
@@ -36,13 +36,13 @@ jobs:
       DOCKER_ACCESS_TOKEN: ${{ secrets.DOCKER_ACCESS_TOKEN }}
 
   #############################################################
-  # Build/Push the 'kstatelibrariesit/krex-dspace-angular' image ('-dist' tag)
+  # Build/Push the 'kstatelibraries/krex-dspace-angular' image ('-dist' tag)
   #############################################################
   krex-dspace-angular-dist:
-    # Ensure this job never runs on forked repos. It's only executed for 'kstatelibrariesit/dspace-angular'
-    if: github.repository == 'kstatelibrariesit/dspace-angular'
-    # Use the reusable-docker-build.yml script from DSpace/DSpace repo to build our Docker image
-    uses: kstatelibrariesit/kstatelibrariesit/.github/workflows/reusable-docker-build.yml@main
+    # Ensure this job never runs on forked repos. It's only executed for 'kstatelibraries/dspace-angular'
+    if: github.repository == 'kstatelibraries/dspace-angular'
+    # Use the reusable-docker-build.yml script from kstatelibraries/kstatelibraries repo to build our Docker image
+    uses: kstatelibraries/kstatelibraries/.github/workflows/reusable-docker-build.yml@main
     with:
       build_id: krex-dspace-angular-dist
       image_name: kstatelibraries/krex-dspace-angular
