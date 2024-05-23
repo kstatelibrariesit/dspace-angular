@@ -5361,4 +5361,12 @@
   "curation-task.task.restoresinglefromaip.label": "Restore Single Object from AIP",
 
   "curation-task.task.replacesinglewithaip.label": "Replace Single Object with AIP",
+
+  "search.filters.filter.etdrDepartment.head": "ETDR Department",
+
+  "search.filters.filter.etdrDepartment.placeholder": "ETDR Department",
+
+  "search.filters.filter.etdrDepartment.label": "Search ETDR department",
+
+  "search.filters.applied.f.etdrDepartment": "ETDR Department",
 }
