@@ -5362,11 +5362,11 @@
 
   "curation-task.task.replacesinglewithaip.label": "Replace Single Object with AIP",
 
-  "search.filters.filter.etdrDepartment.head": "ETDR Department",
+  "search.filters.filter.etdrDepartment.head": "Degree Awarding Department",
 
-  "search.filters.filter.etdrDepartment.placeholder": "ETDR Department",
+  "search.filters.filter.etdrDepartment.placeholder": "Degree Awarding Department",
 
-  "search.filters.filter.etdrDepartment.label": "Search ETDR department",
+  "search.filters.filter.etdrDepartment.label": "Search Degree Awarding Department",
 
-  "search.filters.applied.f.etdrDepartment": "ETDR Department",
+  "search.filters.applied.f.etdrDepartment": "Degree Awarding Department",
 }
